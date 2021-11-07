@@ -37,6 +37,7 @@ def edge_pixel(image_name, pred_flux):
     #         if test[i][j] == 1:
     #             print("边缘像素的位置坐标为：", (str(i), str(j)))
 
+    
     c.show()
     np.savetxt('1.txt', test)
     c.save("images/my_images/" + str(image_name) + "_Edge.png")
